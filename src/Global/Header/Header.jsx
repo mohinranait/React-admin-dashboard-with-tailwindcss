@@ -4,7 +4,7 @@ import { IoNotificationsOutline, IoSettingsOutline, IoToggleOutline, IoToggleSha
 
 const Header = ({toggleLeft,setToggleLeft}) => {
     return (
-        <div>
+        <div className='fixed left-0 w-full top-0 right-0 bg-white z-[100]'>
             <header className='px-3 lg:px-0 bg-white gap-5  shadow-sm'>
                 <div className='flex h-[40px] items-center gap-6'>
                     <div className='w-[200px] '>
