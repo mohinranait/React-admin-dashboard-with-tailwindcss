@@ -19,7 +19,7 @@ const Header = ({toggleLeft,setToggleLeft}) => {
                         </ul>
                     </div>
                     <div className='w-full'>
-                        <ul className='flex justify-end gap-5 items-center'>
+                        <ul className='flex justify-end gap-5 items-center pr-3'>
                             <li>
                                 <a href="">
                                     <IoNotificationsOutline></IoNotificationsOutline>
